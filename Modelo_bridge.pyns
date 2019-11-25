@@ -1,0 +1,24 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Anime', 'x':461, 'y':250, 'width':60, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'GenreAnime', 'x':214, 'y':218, 'width':110, 'height':90, 'attrs': 'anime', 'meths': '__init__'}
+{'type':'umlshape', 'id':'Shounen', 'x':33, 'y':69, 'width':80, 'height':80, 'attrs': '', 'meths': '__init__|manga'}
+{'type':'umlshape', 'id':'Fantasy', 'x':218, 'y':36, 'width':80, 'height':80, 'attrs': '', 'meths': '__init__|manga'}
+{'type':'umlshape', 'id':'MartialArts', 'x':13, 'y':219, 'width':120, 'height':80, 'attrs': '', 'meths': '__init__|manga'}
+{'type':'umlshape', 'id':'Romance', 'x':91, 'y':347, 'width':80, 'height':80, 'attrs': '', 'meths': '__init__|manga'}
+{'type':'umlshape', 'id':'Hero', 'x':470, 'y':38, 'width':90, 'height':64, 'attrs': '', 'meths': 'GenreAnime'}
+{'type':'umlshape', 'id':'Sword', 'x':666, 'y':68, 'width':90, 'height':64, 'attrs': '', 'meths': 'GenreAnime'}
+{'type':'umlshape', 'id':'Dragon', 'x':670, 'y':322, 'width':90, 'height':64, 'attrs': '', 'meths': 'GenreAnime'}
+{'type':'umlshape', 'id':'Lie', 'x':690, 'y':228, 'width':90, 'height':64, 'attrs': '', 'meths': 'GenreAnime'}
+{'type':'umlshape', 'id':'ABC', 'x':366, 'y':458, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'MartialArts_to_GenreAnime', 'source':'MartialArts', 'target':'GenreAnime', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Sword_to_Anime', 'source':'Sword', 'target':'Anime', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Lie_to_Anime', 'source':'Lie', 'target':'Anime', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Anime_to_ABC', 'source':'Anime', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Romance_to_GenreAnime', 'source':'Romance', 'target':'GenreAnime', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Shounen_to_GenreAnime', 'source':'Shounen', 'target':'GenreAnime', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Fantasy_to_GenreAnime', 'source':'Fantasy', 'target':'GenreAnime', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Hero_to_Anime', 'source':'Hero', 'target':'Anime', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Dragon_to_Anime', 'source':'Dragon', 'target':'Anime', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'GenreAnime_to_ABC', 'source':'GenreAnime', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Anime_to_GenreAnime', 'source':'Anime', 'target':'GenreAnime', 'uml_edge_type': 'composition'}

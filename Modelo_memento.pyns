@@ -1,0 +1,10 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'MartialArtist', 'x':50, 'y':233, 'width':140, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Inicio', 'x':160, 'y':349, 'width':74, 'height':138, 'attrs': '_state', 'meths': '__init__|aguaFria|perder|estado'}
+{'type':'umlshape', 'id':'cambio', 'x':220, 'y':137, 'width':70, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Temperatura', 'x':399, 'y':138, 'width':120, 'height':106, 'attrs': '_state', 'meths': '__init__|get_state'}
+{'type':'umlshape', 'id':'Normal', 'x':409, 'y':348, 'width':98, 'height':138, 'attrs': '_inicio|_Normalidad', 'meths': '__init__|undo|backup'}
+{'type':'edge', 'id':'Temperatura_to_cambio', 'source':'Temperatura', 'target':'cambio', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'cambio_to_MartialArtist', 'source':'cambio', 'target':'MartialArtist', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Inicio_to_Normal', 'source':'Inicio', 'target':'Normal', 'uml_edge_type': 'composition'}

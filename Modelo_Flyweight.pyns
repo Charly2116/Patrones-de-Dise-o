@@ -1,0 +1,7 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Player', 'x':348, 'y':90, 'width':70, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'level', 'x':512, 'y':282, 'width':74, 'height':80, 'attrs': '', 'meths': 'EXP|__init__'}
+{'type':'umlshape', 'id':'Play', 'x':171, 'y':238, 'width':162, 'height':138, 'attrs': 'codetic_info|exp', 'meths': '__new__|set_statistics_info|get_statistics_info'}
+{'type':'edge', 'id':'level_to_Player', 'source':'level', 'target':'Player', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Play_to_Player', 'source':'Play', 'target':'Player', 'uml_edge_type': 'generalisation'}

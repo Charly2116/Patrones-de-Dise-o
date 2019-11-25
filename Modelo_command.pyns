@@ -1,0 +1,21 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'JOYSTICK', 'x':366, 'y':79, 'width':90, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Play_Videogames', 'x':142, 'y':269, 'width':160, 'height':106, 'attrs': 'joystick', 'meths': '__init__|action'}
+{'type':'umlshape', 'id':'PauseGame', 'x':102, 'y':43, 'width':100, 'height':106, 'attrs': 'joystick', 'meths': '__init__|action'}
+{'type':'umlshape', 'id':'StartGame', 'x':702, 'y':66, 'width':100, 'height':106, 'attrs': 'joystick', 'meths': '__init__|action'}
+{'type':'umlshape', 'id':'CloseGame', 'x':374, 'y':264, 'width':100, 'height':106, 'attrs': 'joystick', 'meths': '__init__|action'}
+{'type':'umlshape', 'id':'ActionMenu', 'x':320, 'y':438, 'width':130, 'height':112, 'attrs': '', 'meths': 'Play_Videogames|PauseGame|StartGame|CloseGame'}
+{'type':'umlshape', 'id':'Action', 'x':580, 'y':273, 'width':122, 'height':106, 'attrs': '_actions', 'meths': '__init__|requestActions'}
+{'type':'umlshape', 'id':'main', 'x':561, 'y':417, 'width':154, 'height':144, 'attrs': 'menu|joystick_PlayGames|joystick_PauseG|joystick_StarG|joystick_CloseG|act', 'meths': ''}
+{'type':'umlshape', 'id':'ABC', 'x':392, 'y':7, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'PauseGame_to_JOYSTICK', 'source':'PauseGame', 'target':'JOYSTICK', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Play_Videogames_to_JOYSTICK', 'source':'Play_Videogames', 'target':'JOYSTICK', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'JOYSTICK_to_ABC', 'source':'JOYSTICK', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'CloseGame_to_JOYSTICK', 'source':'CloseGame', 'target':'JOYSTICK', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'StartGame_to_JOYSTICK', 'source':'StartGame', 'target':'JOYSTICK', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'JOYSTICK_to_Action', 'source':'JOYSTICK', 'target':'Action', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'JOYSTICK_to_PauseGame', 'source':'JOYSTICK', 'target':'PauseGame', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'JOYSTICK_to_Play_Videogames', 'source':'JOYSTICK', 'target':'Play_Videogames', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'JOYSTICK_to_StartGame', 'source':'JOYSTICK', 'target':'StartGame', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'JOYSTICK_to_CloseGame', 'source':'JOYSTICK', 'target':'CloseGame', 'uml_edge_type': 'composition'}
