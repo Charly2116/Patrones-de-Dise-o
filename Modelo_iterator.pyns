@@ -1,0 +1,8 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'razas_Orden', 'x':273, 'y':249, 'width':120, 'height':138, 'attrs': '_collection|_reversa|_posicion', 'meths': '__init__|__next__'}
+{'type':'umlshape', 'id':'Casta', 'x':473, 'y':258, 'width':154, 'height':138, 'attrs': '_collection', 'meths': 'agregar_raza|__init__|__iter__|get_revez_iterator'}
+{'type':'umlshape', 'id':'Iterable', 'x':509, 'y':144, 'width':90, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Iterator', 'x':291, 'y':143, 'width':90, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Casta_to_Iterable', 'source':'Casta', 'target':'Iterable', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'razas_Orden_to_Iterator', 'source':'razas_Orden', 'target':'Iterator', 'uml_edge_type': 'generalisation'}
