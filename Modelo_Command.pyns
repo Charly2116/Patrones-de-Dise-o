@@ -1,0 +1,13 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'ControlVideo', 'x':352, 'y':210, 'width':130, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'AceptarControlVideo', 'x':55, 'y':176, 'width':200, 'height':106, 'attrs': '_payload', 'meths': 'loading|__init__'}
+{'type':'umlshape', 'id':'GuardarControlVideo', 'x':269, 'y':345, 'width':200, 'height':138, 'attrs': '_buttonn|_a|_s', 'meths': 'loading|__init__'}
+{'type':'umlshape', 'id':'Buttonn', 'x':681, 'y':423, 'width':146, 'height':80, 'attrs': '', 'meths': 'do_something|do_something_else'}
+{'type':'umlshape', 'id':'Accion', 'x':772, 'y':193, 'width':186, 'height':138, 'attrs': '_on_finish|_on_start', 'meths': 'set_on_finish|do_something_important|set_on_start'}
+{'type':'umlshape', 'id':'ABC', 'x':333, 'y':72, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'AceptarControlVideo_to_ControlVideo', 'source':'AceptarControlVideo', 'target':'ControlVideo', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'ControlVideo_to_ABC', 'source':'ControlVideo', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'GuardarControlVideo_to_ControlVideo', 'source':'GuardarControlVideo', 'target':'ControlVideo', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'ControlVideo_to_Accion', 'source':'ControlVideo', 'target':'Accion', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Buttonn_to_GuardarControlVideo', 'source':'Buttonn', 'target':'GuardarControlVideo', 'uml_edge_type': 'composition'}
